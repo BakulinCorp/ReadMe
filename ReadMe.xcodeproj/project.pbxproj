@@ -13,6 +13,9 @@
 		8548A582287F14F7000B8B87 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8548A581287F14F7000B8B87 /* Preview Assets.xcassets */; };
 		8548A589287F1891000B8B87 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8548A588287F1891000B8B87 /* Book.swift */; };
 		8548A58C287F1A45000B8B87 /* Book views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8548A58B287F1A45000B8B87 /* Book views.swift */; };
+		85525E092883F5E400AA2442 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85525E082883F5E400AA2442 /* Library.swift */; };
+		85525E0B2883F9DC00AA2442 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85525E0A2883F9DC00AA2442 /* DetailView.swift */; };
+		85525E0D288402DE00AA2442 /* PHPickerViewController.View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85525E0C288402DE00AA2442 /* PHPickerViewController.View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		8548A581287F14F7000B8B87 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8548A588287F1891000B8B87 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		8548A58B287F1A45000B8B87 /* Book views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Book views.swift"; sourceTree = "<group>"; };
+		85525E082883F5E400AA2442 /* Library.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
+		85525E0A2883F9DC00AA2442 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		85525E0C288402DE00AA2442 /* PHPickerViewController.View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHPickerViewController.View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				8548A57A287F14F4000B8B87 /* ReadMeApp.swift */,
+				85525E082883F5E400AA2442 /* Library.swift */,
 				8548A58A287F1979000B8B87 /* Views */,
 				8548A588287F1891000B8B87 /* Book.swift */,
 				8548A57E287F14F7000B8B87 /* Assets.xcassets */,
@@ -77,6 +84,8 @@
 			children = (
 				8548A57C287F14F4000B8B87 /* ContentView.swift */,
 				8548A58B287F1A45000B8B87 /* Book views.swift */,
+				85525E0A2883F9DC00AA2442 /* DetailView.swift */,
+				85525E0C288402DE00AA2442 /* PHPickerViewController.View.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -152,7 +161,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8548A58C287F1A45000B8B87 /* Book views.swift in Sources */,
+				85525E0B2883F9DC00AA2442 /* DetailView.swift in Sources */,
 				8548A57D287F14F4000B8B87 /* ContentView.swift in Sources */,
+				85525E092883F5E400AA2442 /* Library.swift in Sources */,
+				85525E0D288402DE00AA2442 /* PHPickerViewController.View.swift in Sources */,
 				8548A57B287F14F4000B8B87 /* ReadMeApp.swift in Sources */,
 				8548A589287F1891000B8B87 /* Book.swift in Sources */,
 			);
