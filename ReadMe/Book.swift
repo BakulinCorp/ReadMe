@@ -5,14 +5,14 @@
 //  Created by Максим Бакулин on 13.07.2022.
 //
 
-import Foundation
+import Combine
 
 
-class Book: Hashable {
+class Book: ObservableObject {
     let title: String
     let author: String
-    var microReview: String
-    var readMe: Bool
+    @Published var microReview: String
+    @Published var readMe: Bool
     
     init(
         title: String = "Title",
@@ -27,9 +27,9 @@ class Book: Hashable {
     }
 }
 
-extension Book: Hashable {
+extension Book: Hashable, Identifiable {
     func hash(into hasher: inout Hasher) {
-        hasher.combine(ObjectIdentifier(self))
+        hasher.combine(id)
     }
 }
 
